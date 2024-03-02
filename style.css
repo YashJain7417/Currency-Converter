@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: coral;
+    background-image: url(exchange.jpeg);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.container {
+    background-color: rgb(166, 213, 99);
+    padding: 3rem;
+    border-radius: 1.5rem;
+    min-height: 45vh;
+    width: 50vh;
+}
+
+form {
+    margin: 2rem 0 1rem 0;
+}
+
+form select,
+button,
+input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+
+form input {
+    border: 1px solid lightgrey;
+    font-size: 1rem;
+    height: 3rem;
+    padding-left: 0.75rem;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+}
+
+.dropdown i {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.select-container img {
+    max-width: 2rem;
+}
+
+.select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    border-radius: 0.5rem;
+    border: 1px solid lightgray;
+}
+
+.select-container select {
+    font-size: 1rem;
+    width: auto;
+
+}
+
+.msg {
+    margin: 2rem 0 2rem 0;
+
+    font-weight: 540;
+}
+
+.copy {
+    margin-top: 2rem;
+    font-size: small;
+    text-align: center;
+}
+
+form button {
+    height: 3rem;
+    background-color: rgb(93, 43, 159);
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
